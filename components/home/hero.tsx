@@ -88,26 +88,7 @@ const HeroSection = React.memo(() => {
      
      
       <div className="flex seq">
-        <Button
-          classes="mr-3"
-          type={ButtonTypes.OUTLINE}
-          name="Resume"
-          otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
-          }}
-          href="/Ayush_Resume.pdf"
-        ></Button>
-        <Button
-          classes="ml-3"
-          type={ButtonTypes.PRIMARY}
-          name="Let's Talk"
-          href={SOCIAL_LINKS.topmate}
-          otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
-          }}
-        ></Button>
+       
       </div>
     </div>
   );
